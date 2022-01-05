@@ -1,0 +1,29 @@
+// showDialog(
+          //     context: context,
+          //     builder: (BuildContext context) {
+          //       return SfDateRangePicker(
+          //         view: DateRangePickerView.month,
+          //         backgroundColor: Colors.white,
+          //         showActionButtons: true,
+          //         onSubmit: (Object value) {
+          //           Navigator.pop(context);
+          //           setState(() {
+          //             dateTime = value;
+          //           });
+          //         },
+          //         onCancel: () {
+          //           Navigator.pop(context);
+          //         },
+          //       );
+          //     });
+          // DatePicker.showDatePicker(context,
+          //     showTitleActions: true,
+          //     minTime: DateTime(2560, 1, 1),
+          //     maxTime: DateTime(2565, 12, 31), onChanged: (date) {
+          //   dateTime = date;
+          //   setState(() {});
+          // }, onConfirm: (date) {
+          //   dateTime = date;
+          //   widget.onConfirm(date);
+          //   setState(() {});
+          // }, currentTime: DateTime.now(), locale: LocaleType.th);
